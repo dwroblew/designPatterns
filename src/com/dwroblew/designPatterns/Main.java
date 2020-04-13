@@ -20,4 +20,9 @@ public class Main
 
    }
 
+   public static void doSomething( Rectangle rec )
+   {
+
+   }
+
 }
