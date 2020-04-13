@@ -1,0 +1,6 @@
+L - das Liskov Substitution Principle
+
+**Definition:**
+
+- Eine Unterklasse sollte stets alle Eigenschaften der Oberklasse erfüllen und immer als Objekt der Ober klasse verwendbar sein
+- eine Unterklasse sollte die Funktion der Oberklasse lediglich erweitern, aber nicht verändern oder gar einschränken
