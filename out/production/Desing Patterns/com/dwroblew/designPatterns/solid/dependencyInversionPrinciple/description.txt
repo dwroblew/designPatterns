@@ -1,0 +1,18 @@
+D - Das Dependency Inversion Principle
+
+Definition:
+
+- Klassen höherer Ebene sollten  nicht von Klassen niederer Ebene abhängen.
+
+    Beide sollten mittels Schnittstellen abstrahiert werden
+
+- Schnittstellen sollten nicht von Details, sondern die Details von den Schnittstellen abhängen
+
+Vorteile des Dependency Inversion Principle:
+
+- Die untere Ebene kann beliebig erweitert oder ausgetauscht werden,
+
+    ohne das Änderungen an einer höheren Ebene vorgenommen werden müssen
+
+- Die höhere Ebene muss viel weniger über die untere Ebene wissen
+    - alle Informationen werden von Schnittstelle zur Verfügung gestellt

@@ -1,0 +1,12 @@
+### S - das Single Responsibility Principle
+
+Kernaussage:
+
+- Eine Klasse sollte nur eine Verantwortung haben
+- Es sollte nur einen Grund geben, warum man eineKlasse ändern möchte
+
+Vortaile:
+
+- Wartung einer Klasse vereinfachen
+- Seiteneffekte minimieren
+- Arbeit in Programmierteams kann besser aufgeteilt werden
