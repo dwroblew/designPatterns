@@ -1,0 +1,21 @@
+Programmieraufgabe Factory Method (1)
+
+In dieser Programmieraufgabe sollst Du einen Teil eines Computerspiels programmieren, um zufällige Items zu erzeugen. Die Erzeugung der Items soll über eine Factory Method erfolgen.
+
+Zunächst sollst Du eine abstrakte Klasse „Item“ erzeugen. Diese Klasse besitzt zwei Attribute, nämlich:
+
+name (Typ: String)
+
+id (Typ: int)
+
+Zudem besitzt die Klasse eine abstrakte Methode namens „useItem()“. Diese Methode soll in der jeweiligen Unterklasse überschrieben werden.
+Für das Überschreiben der Methode gibt es keine Vorgabe (Tipp: Gebe einfach etwas Passendes auf der Konsole aus).
+
+Von der Klasse „Item“ sollen zwei Klassen abgeleitet werden. Einmal die Klasse „Shield“ und einmal die Klasse „Hammer“.
+Die Klasse „Shield“ besitzt ein zusätzliches Attribut namens „defenseValue“ vom Typ int. Die Klasse „Hammer“
+besitzt ein zusätzliches Attribut namens „attackValue“ vom Typ int.
+
+Wenn Du Dich an das UML-Klassendiagramm des Factory Method Pattern zurückerinnerst, hast Du mit den hier
+angegebenen Klassen bereits die vollständige Produkthierarchie gegeben. Nun sollst Du noch die zugehörige
+Erzeugerhierarchie programmieren. Dort soll es unteranderem eine Methode geben, mit der man sich ein zufälliges
+Item erzeugen lassen kann. Ansonsten kannst Du die komplette Erzeugerhierarchie nach eigenen Wünschen programmieren.
