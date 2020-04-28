@@ -1,0 +1,24 @@
+Das Factory Method Pattern
+
+Zweck:
+
+- Das Factory Method Pattern kann immer dann sinnvoll eingesetzt werde,
+
+    wenn erst zur Laufzeit des Programms Klassen ausgewählt und Objekte davon erzeugt werden sollen
+
+Anwendunsfall :
+
+- Wenn man zur Zeit der Programmierung noch nicht weiß, welches konkrete Objekte benötigt wird Logistik Beispiel, Computerspiel Beispiel, Frameworks
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+- Spezifische Details aus dem Framework heraushalten
+
+ein wichtiger Vorteile ist:
+
+- Erweiterbarkeit
+- Wiederverwendbarkeit
+
+Nachteile:
+
+- Zwei Vererbungshierachien  ( Produkt, Creator)
