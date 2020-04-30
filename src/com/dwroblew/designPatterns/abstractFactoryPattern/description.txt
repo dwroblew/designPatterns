@@ -1,0 +1,25 @@
+Das Abstract Factory Pattern
+
+Factory Method Pattern: Client stützt sich nur auf Abstraktionen
+
+Entkoppelt
+
+Abstract Factory Pattern: Gleicher Grundgedanke wie beim Factory Method Pattern
+
+Unterschied: Es wird nicht nur ein Produkt, sondern eine ganze Produktfamilie erzeugt
+
+Zweck:
+
+- Das	Abstract	Factory	Pattern	wird	dazu	verwendet,	um	während	der	Laufzeit	des	Programms mehrere	Objekte	einer	Produktfamilie	zu	erzeugen.
+- Der	typische	Anwendungsfall, bei dem das Abstract Factory Pattern zum	Einsatz kommen kann: → Wenn man zum Zeitpunkt der Programmierung noch nicht weiß, welche Objekte einer Produkftmaillie konkret benötigt werden
+
+Vorteile:
+
+- Client ist entkoppelt
+- Erweiterbarkeit
+    - Neue Produktfamilien können sehr leicht hinzugefügt werden
+
+Nachteile:
+
+- Erweiterbarkeit
+    - Neue Produkte zur Produktfamilie hinzufügen ist schwierig → bricht mit bestehendem Code
