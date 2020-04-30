@@ -7,6 +7,8 @@ import com.dwroblew.designPatterns.builder.CivilEngineer;
 import com.dwroblew.designPatterns.builder.WoodHouseBuilder;
 import com.dwroblew.designPatterns.factoryMethod.SeaStreetFlightLogistics;
 import com.dwroblew.designPatterns.factoryMethod.programmingTask.WoWItemFactory;
+import com.dwroblew.designPatterns.singletonPattern.BasicSingleton;
+import com.dwroblew.designPatterns.singletonPattern.StandardInterestRate;
 import com.dwroblew.designPatterns.solid.openClosed.AreaCalculator;
 import com.dwroblew.designPatterns.solid.openClosed.Circle;
 import com.dwroblew.designPatterns.solid.openClosed.Rectangle;
@@ -45,6 +47,14 @@ public class Main
 
       var ff = new FlyFactory();
       var cb = new ControllerBoard( ff );
+
+      //basic singleton
+
+      var basicSingleton = BasicSingleton.getInstance();
+      var rate  = StandardInterestRate.getInstance();
+      System.out.println( rate.getInterestRate() );
+      rate.setInterestRate( 5.0 );
+      System.out.println( rate.getInterestRate() );
 
    }
 
