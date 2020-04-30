@@ -1,5 +1,7 @@
 package com.dwroblew.designPatterns;
 
+import com.dwroblew.designPatterns.abstractFactoryPattern.ControllerBoard;
+import com.dwroblew.designPatterns.abstractFactoryPattern.FlyFactory;
 import com.dwroblew.designPatterns.builder.CivilEngineer;
 
 import com.dwroblew.designPatterns.builder.WoodHouseBuilder;
@@ -40,6 +42,9 @@ public class Main
       //factoryMethod programmingTask
       var produceItems = new WoWItemFactory();
       produceItems.generateRandomItem().useItem();
+
+      var ff = new FlyFactory();
+      var cb = new ControllerBoard( ff );
 
    }
 
