@@ -1,0 +1,26 @@
+Das Singleton Pattern
+
+Zweck:
+
+- Es darf von einer Klasse nur eine Instanz erzeugt werden
+- Situationen, in denen man nur genau ein Objekt benötigt, gibt es in der Realität häufig
+    1. Protokoll
+    2. Puffer eines Druckers
+- Extra Methode, die globalen Zugriffspunkt auf dieses Objekt ermöglicht
+
+Grundprinzip :
+
+- Von einer Klasse (Singleton) darf im gesamten Programmverlauf nur ein Objekt erzeugt werden
+- Über die getInstance()- Methode wird der globale Zugriiffspunkt auf das Objekt realisiert
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+ein wichtiger Vorteile ist:
+
+- Ersetzen globale Variablen
+- Lazy Instanziierung
+
+Nachteile:
+
+- Bedingungslose und globale Verfügung
+- Wartbarkeit
