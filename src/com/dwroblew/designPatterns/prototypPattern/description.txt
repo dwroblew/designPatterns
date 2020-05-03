@@ -1,0 +1,24 @@
+Das Prototype Pattern
+
+Zweck:
+
+- Wird eingesetzt, wenn es einfacher ist, ein bereits existierendes Objekt zu klonen, anstatt ein neues zu erzeugen und zu initialisieren
+    - → immer, wenn das Erzeugen eines Objekts sehr ressourcenintensiv und somit "teuer ist
+- Unterschiede zwischen flachen und tiefen Kopien beachten
+
+Potentielle Anwendungsfälle identifizieren :
+
+- Komplexe Typen, deren Initialisierung z.B. aufwendige Datenbankoperationen beinhaltet
+- Vorlagen( Textverarbeitungsprogramm)
+
+
+
+ein wichtiger Vorteile ist:
+
+- Komplexe Objekte lassen sich schneller erzeugen
+- Keine Erzeuger -Klassenhierarchie parallel zu der Produkt-Klassenhierarchie
+
+Nachteile:
+
+- Jede Unterklasse muss die clone()- Methode implementieren
+- Eventuelle Initialisierungen des kopierten Objekts müssen dann noch zusätzlich erfolgen
