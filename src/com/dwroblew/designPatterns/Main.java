@@ -7,11 +7,15 @@ import com.dwroblew.designPatterns.builder.CivilEngineer;
 import com.dwroblew.designPatterns.builder.WoodHouseBuilder;
 import com.dwroblew.designPatterns.factoryMethod.SeaStreetFlightLogistics;
 import com.dwroblew.designPatterns.factoryMethod.programmingTask.WoWItemFactory;
+import com.dwroblew.designPatterns.prototypPattern.Address;
+import com.dwroblew.designPatterns.prototypPattern.HospitalEmployee;
 import com.dwroblew.designPatterns.singletonPattern.BasicSingleton;
 import com.dwroblew.designPatterns.singletonPattern.StandardInterestRate;
 import com.dwroblew.designPatterns.solid.openClosed.AreaCalculator;
 import com.dwroblew.designPatterns.solid.openClosed.Circle;
 import com.dwroblew.designPatterns.solid.openClosed.Rectangle;
+
+
 
 import static com.dwroblew.designPatterns.solid.singleResponsibility.ShoppingList.shoppingList;
 
@@ -51,10 +55,27 @@ public class Main
       //basic singleton
 
       var basicSingleton = BasicSingleton.getInstance();
-      var rate  = StandardInterestRate.getInstance();
+      var rate = StandardInterestRate.getInstance();
       System.out.println( rate.getInterestRate() );
       rate.setInterestRate( 5.0 );
       System.out.println( rate.getInterestRate() );
+
+      //prototypPattern
+
+      var
+         employee1 =
+         new HospitalEmployee( "Damian", "Wroblewski", new Address( "Hauptstraße", 2, "123" ), "Artzt" );
+      var employee2 = employee1.clone();
+
+      System.out.println( employee1 );
+      System.out.println( employee2 );
+      employee2.setFirstName( "Franziska" );
+      employee2.setLastName( "Bauer" );
+      employee2.setAddress( new Address( "Tulpenstraße",13,"74562" ) );
+      employee2.setPosition( "Kranknschwester" );
+
+      System.out.println( employee1 );
+      System.out.println( employee2 );
 
    }
 
