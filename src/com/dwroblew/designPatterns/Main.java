@@ -2,6 +2,8 @@ package com.dwroblew.designPatterns;
 
 import com.dwroblew.designPatterns.abstractFactoryPattern.ControllerBoard;
 import com.dwroblew.designPatterns.abstractFactoryPattern.FlyFactory;
+import com.dwroblew.designPatterns.adapterPattern.EnemyObject;
+import com.dwroblew.designPatterns.adapterPattern.EnemyObjectOrc;
 import com.dwroblew.designPatterns.builder.CivilEngineer;
 
 import com.dwroblew.designPatterns.builder.WoodHouseBuilder;
@@ -76,6 +78,8 @@ public class Main
 
       System.out.println( employee1 );
       System.out.println( employee2 );
+
+
 
    }
 
