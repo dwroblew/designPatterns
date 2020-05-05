@@ -1,0 +1,20 @@
+Das Adapter Pattern
+
+Zweck:
+
+- Das Adapter Pattern dient zur Übersetzung einer Schnittstelle in eine andere.
+
+    Dadurch wird die Kommunikation von Klassen mit zueinander inkompatiblen Schnittstellen ermöglichet.
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+- Wenn bestimmte Klassen zur Wiederverwendung konzipiert wurden (Klassenbibliotheken)
+
+Vorteile:
+
+- Wiederverwendbarkeit und Flexibilität wird erhöht
+- Verbindung von zwei zueinander inkompatiblen  Interfaces
+
+Nachteile:
+
+- Manchmal sind viele Anpassungen entlang einer Adapterkette erforderlich
