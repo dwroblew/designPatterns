@@ -1,0 +1,20 @@
+Das Composite Pattern
+
+Zweck:
+
+- Das Composite Pattern stellt einen Mechanismus zur Verfügung, um einfache Objekte und komplexe  zusammengesetzte Objekte einheitlich zu behandeln. Die Objekte werden zu sogenannten Baumstrukturen zusammengefügt, um so Teil-Ganze Hierarchien zu repräsentieren
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+- Mechanismus , um einfache Objekte und komplexe zusammengesetzte Objekte einheitlich zu behandeln
+- → Teil -Ganze Hierarchien
+
+Vorteile:
+
+- Einheitliche Behandlung von Primitiven und Kompositionen
+- Flexibilität und Erweiterbarkeit
+- Verschachtelte Strukturen mit beliebiger Tiefe möglich
+
+Nachteile:
+
+- Ein zu allgemeiner Entwurf erschwertes, Kompositionen auf bestimmte Klassen zu Beschränken
