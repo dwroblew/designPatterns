@@ -1,0 +1,30 @@
+Das Bridge Pattern
+
+Zweck:
+
+- Das Bridge Pattern ist ein Mechanismus, durch den die Implementierung von ihrer Abstraktion getrennt wird. Dadurch erreicht man eine lose Kopplung zwischen der Implementierungshierarchie und der Abstraktionshierarchie
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+- Mechanismus, wodurch die Implementierung von ihrer Abstraktion getrennt wird
+- Beide Hierarchien können unabhängig voneinander weiterentwickelt werden
+
+Vorteile:
+
+- Flexibel erweiterbar
+- Abstraktion und Implementierung voneinander entkoppelt
+- Umsetzung der Interfaces bleibt verborgen
+
+Nachteile:
+
+- Höhere Komplexität
+
+Adapter Pattern vs. Bridge Pattern
+
+Adapter Pattern Hauptzweck:
+
+- Zwei Schnittstellen sin zueinander inkompatibel → kompatibel machen
+
+Bridge Pattern Hauptzweck:
+
+- Trennung von Abstraktions- und Implementierungshierarchie ermöglichen → beide Hierarchien können getrennt voneinander weiterentwickelt werden
