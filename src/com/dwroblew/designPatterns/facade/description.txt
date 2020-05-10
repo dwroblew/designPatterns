@@ -1,0 +1,18 @@
+Das Facade Pattern
+
+Zweck:
+
+- Das Facade Pattern bietet eine einheitliche und meist vereinfachte Schnittstelle zu einer Menge von Schnittstellen eines Subsystems.
+- Bietet einheitliche und meist vereinfachte Schnittstelle zu einer Menge von Schnittstellen eines Subsystems
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+Vorteile:
+
+- Los Kopplung zwischen Client und Subsystem
+- Senkt Komplexität
+
+Nachteile:
+
+- Zusätzliche Schicht beeinflusst eventuell Performance
+- Entwickler müssen lernen, die neue Schnittstelle auch zu nutzen
