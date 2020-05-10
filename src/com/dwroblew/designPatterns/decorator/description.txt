@@ -1,0 +1,19 @@
+Das Decorator Pattern
+
+Zweck:
+
+- Mithilfe des Decorator Pattern hat man eine flexible Alternative zur Unterklassenbildung, um eine Klasse mit zusätzlichen Funktionalitäten zu erweitern
+- Mann kann Klassen um zusätzliche Funktionalitäten erweitern → zur Laufzeit
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+Vorteile:
+
+- Ausufernde Klassenhierarchien werden vermieden
+- Geringerer Wartungsaufwand
+- Dynamik und Flexibilität
+
+Nachteile:
+
+- Aufruf einen Basisfunktionalität muss zweimal ausgeführt werden
+    - Dekorierer ist nur ein Wrapper
