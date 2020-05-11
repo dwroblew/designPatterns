@@ -1,0 +1,25 @@
+Das Flyweight Pattern
+
+Zweck:
+
+- Das Flyweight Pattern ist eine Methode zur Speicheroptimierung, die immer dann verwendet wird, wenn man von einer Klasse ganz viele Objekte erstellen muss, die sich bestimmte variable Informationen teilen und deren normale Implementierung deshalb unnötig Speicher verbrauchen würde
+- Einsatz, wenn:
+    - Anzahl der zu erzeugenden Objekte ist sehr hoch
+    - Erzeugung der vielen Objekte ist kompliziert und kostet Performance
+    - Objekte besitzen Eigenschaften, die sie mit anderen Objekten teilen können
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+- Hilft bei Speicheroptimierung
+- Verwenden, wenn man von einer bestimmten Klasse zahlreiche Objekte erzeugen möchte, die sich bestimmte variable Informationen teilen und deren normale Implementierung deshalb unnötig viel Speicher verbrauchen würde
+- Leichtgewichtige Objekte ( Intrinsische Zustände)
+- Alle anderen Informationen werden in effizienteren Datenstrukturen gespeichert und als extrinsische Zustände an Operationen übergeben
+
+Vorteile:
+
+- Sparen von Speicherplatz
+
+Nachteile:
+
+- Allgemeine Codekomplexität wird erhöht
+- Vergeudung von CPU-Zeit
