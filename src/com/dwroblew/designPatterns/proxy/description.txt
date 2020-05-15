@@ -1,0 +1,39 @@
+Das Proxy Pattern
+
+Zweck:
+
+- Das Proxy Pattern sorgt dafür, dass der Client nicht direkt mit dem Zielobjekt kommuniziert, sondern stattdessen mit dem Proxy, welcher dann auf das Zielobjekt zugreift.
+- Schutz-Proxy
+    - Zielobjekt des Clients wird zusätzliche Schutzebene hinzugefügt
+- Virtuelles-Proxy
+    - Verbessert Performance
+- Remote-Proxy
+- Dynamisches-Proxy
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+- Client kommuniziert nicht direkt mit dem Zielobjekt, sondern stattdessen mit dem Proxy, welcher dann auf das Zielobjekt zugreift
+
+Decorator vs. Proxy
+
+- Proxy behält die Schnittstelle bei
+- Decorator fügt zusätzliche Funktionalitäten hiznu (Methoden, Attribute)
+
+Adapter vs. Proxy
+
+- Adapter ändert häufig die Schnittstelle
+- Proxy stellt immer die vollständige Schnittstelle zur Verfügung
+
+Vorteile:
+
+- Zusätliche Ebene der Kontrolle
+- Steigert Performance des Softwaresystems
+- Das Virtuelle-Proxy
+    - Methode zur Speicheroptimierung
+    - Objekterstellung wird so lange verschoben, bis Objekt auch tatsächlich benötigt wird
+
+Nachteile:
+
+- Komplexität wird erhöht
+- Geschwindigkeitseinbußen
+- Notwendigkeit, die Schnittstelle des Subjekts vollständig im Proxy zu implementieren
