@@ -1,0 +1,22 @@
+Das Command Pattern
+
+Zweck:
+
+Befehle werden in extra Befehlsobjekten gekapselt. Das wiederum ermöglicht, Clients mit verschiedenen Anfragen zu parametrisiren, Operationen in eine Schlange einzureihen, ein Logbuch zu führen und Operationen rückgängig zu machen,
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+- GUIs
+- Transaktionssysteme
+- Befehle zeitlich verzögert ausführen
+
+Vorteile:
+
+- Wiederverwendbrakeit
+- Einfache Implementierung der Rückgängig-Funktion
+- Einfache Protokollierung
+- Flexibilität
+
+Nachteile:
+
+- Hohe Klassenanzahl
