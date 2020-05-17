@@ -1,0 +1,25 @@
+Das Chain of Responsibility Pattern
+
+Zweck:
+
+Mithilfe des Chain of Responsibility Patterns wird das Objekt, welches eine Anfrage startet, von dem Objekt, welches die Anfrage letztendlich bearbeitet, entkoppelt
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+- GUI
+- Fahrkartenautoamt
+- Client möchte gewisse Aufgabe erledigt haben
+- Anfrage an Zuständigkeitskette, die sich der Aufgabe widmet
+- Glied für Glied prüfen, ob Anfrage bearbeitet werden kann
+    - Falls nein → Aufgabe an nächstes Glied weiterleiten
+    - Falls ja → Aufgabe bearbeiten
+
+Vorteile:
+
+- Lose Kopplung zwischen Sender und Bearbeiter der Anfrage
+- Erweiterbarkeit
+
+Nachteile:
+
+- Schwer zu debuggen
+- Basiert auf Prinzip der verketteten Liste, deren Geschwindigkeit stark von der Anzahl der Glieder/Elemente abhängig ist
