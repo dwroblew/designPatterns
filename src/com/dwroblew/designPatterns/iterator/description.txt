@@ -1,0 +1,25 @@
+Das Iterator Pattern
+
+Zweck:
+
+- Mithilfe, des Iterator Pattern wird eine Standardmethode bereitgestellt, um eine Gruppe von Objekten zu druchlaufen.
+- Iterator Pattern ist im Collection-Framework implementiert
+
+Sinnvolle Einsatzzwecke:
+
+- Auf Inhalte von Aggregatobjekten zugreifen, ohne Informationen über interne Darstellung des Aggregatobjekts preiszugeben.
+- Mehrere Iterationswege zur Verfügung stellen
+- Durchlaufen von Bäumen, Ergebnissen von Webservices, Cursor auf Datenbanken
+
+Fazit /  Potentielle Anwendungsfälle identifizieren :
+
+Vorteile:
+
+- Aggregatobjekt kann auf verschiedene Arten durchlaufen werden
+- Komplexe Datenstruktur kann vor Clients verbogen werden
+- Einheitliche Schnittstelle, um Datenstrukturen zu durchlaufen
+- Vereinfacht den Code von Aggregatobjekten
+
+Nachteile:
+
+- Kann für Programme mit einfachen Aggregatobjekten ein overkill sein
